@@ -1,0 +1,11 @@
+import java.net.InetAddress;
+import java.net.UnknownHostException;
+
+public class InetAddressObjectMethod {
+    public static void main(String[] args) throws UnknownHostException {
+        InetAddress ip1 = InetAddress.getByName("www.kbc.edu.np");
+        System.out.println(ip1.getHostAddress());
+        String s = ip1.toString();
+        System.out.println(s);
+    }
+}

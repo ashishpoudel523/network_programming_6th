@@ -4,7 +4,7 @@ import java.net.UnknownHostException;
 public class AddresTest {
 
 	public static void main(String[] args) throws UnknownHostException {
-	 String myip = "FF0E::11AF";
+	 String myip = "192.168.123.111";
         InetAddress ip2 = InetAddress.getByName(myip);
         
         if(ip2.getAddress().length==4){

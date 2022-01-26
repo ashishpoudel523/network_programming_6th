@@ -1,0 +1,11 @@
+The InetAddress Class
+The java.net.InetAddress class is Java’s high-level representation of an IP address,
+both IPv4 and IPv6. It is used by most of the other networking classes, including Socket,
+ServerSocket, URL, DatagramSocket, DatagramPacket, and more. Usually, it includes
+both a hostname and an IP address.
+
+
+
+
+
+
