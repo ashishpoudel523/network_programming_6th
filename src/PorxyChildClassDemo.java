@@ -12,7 +12,8 @@ import java.util.List;
 
 public class PorxyChildClassDemo extends ProxySelector {
 
-    @Override
+    @SuppressWarnings("unused")
+	@Override
     public List<Proxy> select(URI uri) {
          String ip = "196.24.14.15";
          SocketAddress address = new InetSocketAddress(ip,80);

@@ -4,7 +4,8 @@ import java.net.SocketAddress;
 
 public class ProxyClassDemo {
     
-    public static void main(String[] args) {
+    @SuppressWarnings("unused")
+	public static void main(String[] args) {
         //suppose we have the server of ip address  196.24.14.15 http  port no 80;
         String ip = "196.24.14.15";
         SocketAddress address = new InetSocketAddress(ip,80);

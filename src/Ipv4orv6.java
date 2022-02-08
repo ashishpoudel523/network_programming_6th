@@ -3,6 +3,7 @@ import java.util.*;
 
 public class Ipv4orv6 
 { 
+	@SuppressWarnings("resource")
 	public static void main(String[] args){ 
 		String ip; 
 		Scanner input = new Scanner(System.in); 
