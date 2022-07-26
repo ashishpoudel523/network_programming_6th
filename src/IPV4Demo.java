@@ -2,7 +2,7 @@ import java.net.Inet4Address;
 import java.net.Inet6Address;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
-
+ 
 public class IPV4Demo {
     public static void main(String[] args) throws UnknownHostException {
         InetAddress ip1 = InetAddress.getByName("143.23.22.22");
