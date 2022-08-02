@@ -13,7 +13,7 @@ Unit 2: Internet Addresses [4 Hrs.]
 2.4 The Network Interface Class: Factory Method & Getter Method
 2.5 Some Useful Programs: SpamCheck, Processing Web Server Logfiles
 
-Unit 3: URLs and URIs [5 Hrs.]
+Unit 3: URLs and URIs [5 Hrs.] 
 
 3.1 URIs: URLs and Relative URLs
 3.2 The URL Class: Creating New URLs, Retrieving Data From a URL, Splitting a URL into Pieces, Equality & Comparison and Conversion
